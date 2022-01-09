@@ -2,7 +2,7 @@ class FancyLogger {
     constructor() {
         if (FancyLogger.instance == null){
             this.logs = []
-            FancyLogger.instance = this
+            FancyLogger.instance = this  //lazy instantiation
         }
         return  FancyLogger.instance
     }

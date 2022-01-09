@@ -13,3 +13,7 @@ Client won't know if it is the real object or the proxy because both are impleme
 ```
 mvn clean && mvn install -DskipDeploy=false -DimageVersion=v3.2-production -Denvironment=Production -DawsRegion=us-east-1
 ```
+
+## Real World Analogy
+A credit card is a proxy for a bank account, which is a proxy for a bundle of cash. Cash and Credit card can be used for payment, both
+implements the same interface.

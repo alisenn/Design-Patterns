@@ -7,3 +7,6 @@ from all of the sub components
 
 The Facades aim is to simplify interfaces so you don't have
 to worry about what is going on under the hood
+
+# Summary
+Facade defines higher level interface that makes the subsystem easier to use.
